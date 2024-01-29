@@ -1,0 +1,36 @@
+.main {
+  padding: 0 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para input em foco */
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Estilo para botão de submit */
+  button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  .error-message{
+    color: red;
+  }
+  

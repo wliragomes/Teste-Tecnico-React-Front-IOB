@@ -1,0 +1,80 @@
+.main {
+    padding: 0 10px;
+  }
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para as células do cabeçalho */
+  th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Estilo alternado para as linhas da tabela */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para as células de dados */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo para as células de dados quando o mouse passa por cima */
+  tr:hover td {
+    background-color: #f5f5f5;
+  }
+  
+  /* Adicione estilos ao seu arquivo TaskList.css ou apropriado */
+/* Botão Detalhes */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botão Editar */
+  button.edit {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button.edit:hover {
+    background-color: #218838;
+  }
+  
+  /* Botão Remover */
+  button.remove {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.remove:hover {
+    background-color: #c82333;
+  }
+  

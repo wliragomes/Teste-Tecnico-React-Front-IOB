@@ -1,0 +1,8 @@
+.div-description {
+    display: flex;
+}
+
+.description {
+    padding-right: 4px;
+    font-weight: bold;
+}
